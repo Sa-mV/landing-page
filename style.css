@@ -139,7 +139,25 @@ div.square {
     color: #777a7e;
 }
 
+.quote-box {
+    background-color: #dadfe6;
+    display: flex;
+    flex-direction: column;
+    padding: 140px 400px;
+    /* margin: auto; */
+}
 
+.quote {
+    font-size: 41px;
+    color: #46484a;
+    font-weight: lighter;
+    font-style: italic;
+}
 
+.quotee {
+    align-self: flex-end;
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: bold;
 
-
+}
