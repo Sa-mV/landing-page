@@ -143,12 +143,11 @@ div.square {
     background-color: #dadfe6;
     display: flex;
     flex-direction: column;
-    padding: 140px 400px;
-    /* margin: auto; */
+    padding: 105px 285px;
 }
 
 .quote {
-    font-size: 41px;
+    font-size: 32px;
     color: #46484a;
     font-weight: lighter;
     font-style: italic;
@@ -156,8 +155,75 @@ div.square {
 
 .quotee {
     align-self: flex-end;
-    font-size: 26px;
+    font-size: 20px;
     color: #1F2937;
     font-weight: bold;
+}
 
+.last-box {
+    background-color: transparent;
+    height: 315px;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.action-box {
+    background-color: rgb(20, 128, 195);
+    min-width: 70%;
+    min-height: 43%;
+    max-width: 70%;
+    max-height: 43%;
+    flex: auto;
+    border-radius: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-text {
+    color: white;  
+    display: flex;
+    flex-direction: column;
+    gap: 6px; 
+}
+
+.action-upper {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.action-lower {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.action-button {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 6px 32px;
+    max-width: 14%;
+    cursor: pointer;
+    flex: 1 1 auto;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: rgba(255, 255, 255, 0.782);
+    font-size: ;
+    font-weight: 100;
+    text-align: center;
+    height: 90px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
